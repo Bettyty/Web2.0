@@ -1,0 +1,218 @@
+body {
+	font-family: century Gothic;
+}
+
+#title {
+	font-size: 20pt;
+	margin-bottom: 0px;
+	white-space: nowrap;
+}
+
+#undertitle {
+	white-space: nowrap;
+}
+
+#Maze {
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	width: 0px;
+	height: 0px;
+}
+
+#result {
+	height: 20px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.walls {
+	background-color: rgb(238, 238, 238);
+	position: absolute;
+	border: solid 1px black;
+}
+
+.walls_change {
+	background-color: rgb(233, 0, 3);
+}
+
+#box-1 {
+	width: 153px;
+	height: 51px;
+	top: 0px;
+	left: -252px;
+	border-width: 1px 0px 0px 1px;
+}
+
+#box-2 {
+	width: 198px;
+	height: 51px;
+	top: 0px;
+	left: -99px;
+	border-width: 1px 0px 1px 0px;
+}
+
+#box-3 {
+	width: 153px;
+	height: 51px;
+	top: 0px;
+	left: 99px;
+	border-width: 1px 1px 0px 0px;
+}
+
+#box-4 {
+	width: 153px;
+	height: 150px;
+	top: 51px;
+	left: -252px;
+	border-width: 0px 1px 1px 1px;
+}
+
+#box-5 {
+	width: 153px;
+	height: 150px;
+	top: 51px;
+	left: 98px;
+	border-width: 0px 1px 1px 1px;
+}
+
+#box-6 {
+	width: 101px;
+	height: 151px;
+	top: 100px;
+	left: -51px;
+	border-width: 1px 1px 0px 1px;
+}
+
+#box-7 {
+	width: 201px;
+	height: 50px;
+	top: 251px;
+	left: -252px;
+	border-width: 1px 0px 1px 1px;
+}
+
+#box-8 {
+	width: 103px;
+	height: 51px;
+	top: 250.9px;
+	left: -51px;
+	border-width: 0px 0px 1px 0px;
+}
+
+#box-9 {
+	width: 201px;
+	height: 50px;
+	top: 251px;
+	left: 52px;
+	border-width: 1px 1px 1px 0px;
+}
+
+#box-check-1 {
+	width: 41px;
+	height: 49px;
+	position: absolute;
+	top: 201px;
+	left: 169px;
+}
+
+#box-check-2 {
+	width: 42px;
+	height: 49px;
+	position: absolute;
+	top: 201px;
+	left: 252px;
+}
+
+#S {
+	font-size: 24pt;
+	text-align: center;
+	background-color: rgb(129, 254, 130);
+	width: 41px;
+	height: 41px;
+	position: absolute;
+	top: 206px;
+	left: -252px;
+	border: solid 1px black;
+}
+
+#E {
+	font-size: 24pt;
+	text-align: center;
+	background-color: rgb(133, 131, 252);
+	width: 40px;
+	height: 41px;
+	position: absolute;
+	top: 206px;
+	left: 212px;
+	border: solid 1px black;
+}
+
+p {
+	text-align: center;
+}
+
+#rule {
+	position: relative;
+	top: 326px;
+}
+
+#container {
+	position: absolute;
+	left: 50%;
+	top: 525px;
+	width: 0px;
+	height: 0px;
+}
+
+#rule-pic {
+	position: absolute;
+	top: -3px;
+	left: -50px;
+	background-color: rgb(238, 238, 238);
+	width: 102px;
+	height: 26px;
+}
+
+#eng {
+	position: absolute;
+	left: -285px;
+	top: 30px;
+}
+
+
+#test-id {
+	width: 200px;
+	height: 100px;
+	border: solid 1px blue;
+	transition: top 1s;
+	transition: left 1s;
+}
+
+.test {
+	position: absolute;
+	top: 1000px;
+	left: 200px;
+}
+
+.test-change {
+	position: absolute;
+	top: 100px;
+}
+
+#test-id2 {
+	width: 200px;
+	height: 100px;
+	transition: top 1s;
+}
+
+.test2 {
+	position: absolute;
+	top: 1000px;
+	left: 400px;
+}
+
+.test-change2 {
+	position: absolute;
+	top: 100px;
+}

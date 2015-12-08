@@ -1,0 +1,39 @@
+body {
+	font-family: 微软雅黑;
+	font-weight: bold;
+	text-align: left;
+}
+
+thead {
+	background-color: rgb(2, 26, 125);
+	color: white;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th , td {
+	border: 1.8px solid rgb(186, 193, 187);
+	background-repeat: no-repeat;
+	background-position: 100% 2px;
+	min-width: 160px;
+}
+
+.alternate {
+	background-color: rgb(220, 220, 220);
+}
+
+.ascend {
+	background-image: url("source/ascend.png");
+	background-color: rgb(163, 176, 252);
+}
+
+.descend {
+	background-image: url("source/descend.png");
+	background-color: rgb(163, 176, 252);
+}
+
+th:hover {
+	background-color: rgb(163, 176, 252);
+}

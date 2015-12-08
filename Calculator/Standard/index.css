@@ -1,0 +1,55 @@
+/*Done By 14331083_HanYifan Nov.7*/
+/*Version 2.0*/
+#box {
+	width: 288px;
+	height: 371px;
+	background-color: rgb(242, 242, 242);
+	box-shadow: 2px 2px 1px #bbb;
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+
+p {
+	text-align: right;
+	vertical-align: center;
+	margin: 20px 5px 0px 5px;
+	height: 100px;
+	font: bold 28pt Helvetica;
+	overflow: hidden;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(230, 230, 230);
+	font: bold 13pt Helvetica;
+}
+
+li {
+	display: inline-block;
+	width: 72px;
+	height: 30px;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+li:hover {
+	background-color: rgb(207, 207,207);
+}
+
+li:active {
+	background-color: rgb(184, 184, 184);
+	transform: scale(0.97, 0.97);
+}
+
+#number {
+	margin: 20px;
+}
+
+.button {
+	font: normal 11pt 微软雅黑, Helvetica;
+}

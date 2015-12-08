@@ -1,0 +1,135 @@
+body {
+	text-align: center;
+}
+
+#container {
+	position: absolute;
+	left:25%;
+	font-family: century Gothic;
+}
+
+#title {
+	font-size: 20pt;
+}
+
+#introduction-1 {
+	font-size: 15pt;
+	white-space: nowrap;
+}
+
+button {
+	background-color: #FFF;
+	border: solid 1px rgb(222, 222, 222);
+	border-radius: 5px;
+	width: 161px;
+	
+	position: absolute;
+	top:115px;
+	left: 192px;
+	font-size: 9pt;
+	font-family: century Gothic;
+	padding: 3px;
+}
+
+#period {
+	border: solid 1px rgb(222, 222, 222);
+	border-radius: 5px;
+
+	position: absolute;
+	top:131px;
+	left: 193px;
+
+	width: 149px;
+	text-align: left;
+	
+	padding: 0 5px;
+
+	font-size: 10pt;
+}
+
+#Time {
+	position: absolute;
+	top:115px;
+	left: 399px;
+}
+
+#Score {
+	position: absolute;
+	top:141px;
+	left: 391px;
+}
+
+#period, #start-end, #Time, #Score, #instructions, #tips {
+	font-weight: bold;
+}
+
+
+#Time-number, #Score-number {
+	border: solid 1px rgb(222, 222, 222);
+	border-radius: 3px;
+
+	display: inline-block;
+	width: 34px;
+	height: 20px;
+
+	text-align: left;
+	padding-left: 4px;
+
+	font-weight: normal;
+}
+
+#Moles {
+	width: 262px;
+	height: 172px;
+	display: flex;
+	flex-wrap: wrap;
+	border-top: solid 1.8px rgb(168, 168, 168);
+	border-bottom: solid 1.8px rgb(168, 168, 168);
+	position: absolute;
+	top:183px;
+	left: 214px;
+}
+
+.moles {
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	margin: 5px;
+	border: solid 2px rgb(222, 222, 222);
+}
+
+.moles:hover {
+	border-color: rgb(156, 191, 226);
+}
+.moles-active {
+	box-shadow: 0px 0px 1px 4px rgb(68, 154, 250) inset;
+}
+
+.moles-head {
+	margin-top: 12px;
+}
+
+.moles-foot {
+	margin-bottom: 12px;
+}
+
+#instructions {
+	position: absolute;
+	top:370px;
+	left: 0px;
+	font-family: Bell MT;
+}
+
+#tips {
+	position: absolute;
+	top: 418px;
+	left: 0;
+	text-align: left;
+	padding-left: 20px;
+	font-family: Bell MT;
+	font-size: 12.5pt;
+}
+
+#tips p {
+	margin: 0px;
+}
